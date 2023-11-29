@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+
+import sys
+
+ans = 0
+
+for line in sys.stdin:
+    try:
+        ans *= int(line)
+    except:
+        try:
+            ans *= float(line)
+        except:
+            print("is not number")
+            exit()
+print(ans)
+
