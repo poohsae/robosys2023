@@ -3,12 +3,12 @@
 ## plusコマンド
 [![test_plus](https://github.com/poohsae/robosys2023/actions/workflows/test_plus.yml/badge.svg)](https://github.com/poohsae/robosys2023/actions/workflows/test_plus.yml)
 
-標準入力から読み込んだ数字を足す。
+* 標準入力から読み込んだ数字を足す。
 
 ## multiplicationコマンド
 [![test_multiplication](https://github.com/poohsae/robosys2023/actions/workflows/test_multiplication.yml/badge.svg)](https://github.com/poohsae/robosys2023/actions/workflows/test_multiplication.yml)
 
-標準入力から読み込んだ数字を掛ける。
+* 標準入力から読み込んだ数字を掛ける。
 
 ## ダウンロード
 `$ git clone https://github.com/poohsae/robosys2023.git`
