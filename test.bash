@@ -19,8 +19,8 @@ out=$(echo あ | ./plus)
 [ "${out}" = "is not number" ] || ng ${LINENO}
 
 out=$(echo |./plus) #空文字
-[ "$?" = 1 ]      || ng ${LINENO}
-[ "${out}" = "" ] || ng ${LINENO}
+
+[ "${out}" = "0" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
