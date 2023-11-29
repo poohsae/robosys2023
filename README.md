@@ -31,11 +31,11 @@ $seq 5 | ./multiplication
 * Ubuntu20.04
 
 * python
-  *　テスト済み：　3.7~3.10
+ * テスト済み：　3.7~3.10
 
 ## ライセンス
-* このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布および使用が許可されます。
-* このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て、自身の著作としたものです。
+* このソフトウェアパッケージは、３条項BSDライセンスの下、再配布および使用が許可されます。
+* このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て、いくつか変更点を加え、自身の著作としたものです。
 [ryuichiueda/my_slides/robosys_2023/lesson4.md](https://github.com/ryuichiueda/my_slaides/tree/master/robosys_2022) 
 
  © 2023 Sae Sasaki
