@@ -11,9 +11,11 @@
 標準入力から読み込んだ数字を掛ける。
 
 ## ダウンロード
-$ git clone <https://github.com/poohsae/robosys2023.git>
+`$ git clone https://github.com/poohsae/robosys2023.git`
 
 ## 使用例
+
+```
 $chmod +x plus
 
 $seq 5 | ./plus
@@ -23,13 +25,13 @@ $seq 5 | ./plus
 $seq 5 | ./multiplication
 
 120
-
-## 必要なソフトウェア
-* python
-  *　テスト済み：　３．７～３．１０
+```
 
 ## テスト環境
-* Ubuntu
+* Ubuntu20.04
+
+* python
+  *　テスト済み：　３．７～３．１０
 
 ## ライセンス
 * このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布および使用が許可されます。
