@@ -20,7 +20,7 @@ out=$(echo あ | ./plus)
 
 out=$(echo |./plus) #空文字
 
-[ "${out}" = "0" ] || ng ${LINENO}
+[ "${out}" = 0 ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
