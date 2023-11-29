@@ -1,4 +1,4 @@
-name: test_mulitiplication
+name: test_multiplication
 on: push
 jobs:
   test:
@@ -9,4 +9,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Plus test
-      run: bash -xv ./test_muliplication.bash
+      run: bash -xv ./test_multiplication.bash
