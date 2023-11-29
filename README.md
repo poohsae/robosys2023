@@ -1,9 +1,14 @@
 # robosys2023
 
 ## plusコマンド
-![test](https://github.com/poohsae/robosys2023/actions/workflows/test.yml/badge.svg)
+[![test_plus](https://github.com/poohsae/robosys2023/actions/workflows/test_plus.yml/badge.svg)](https://github.com/poohsae/robosys2023/actions/workflows/test_plus.yml)
 
-標準入力から読み込んだ数字を促す。
+標準入力から読み込んだ数字を足す。
+
+## multiplicationコマンド
+[![test_multiplication](https://github.com/poohsae/robosys2023/actions/workflows/test_multiplication.yml/badge.svg)](https://github.com/poohsae/robosys2023/actions/workflows/test_multiplication.yml)
+
+標準入力から読み込んだ数字を掛ける。
 
 ## ダウンロード
 $ git clone <https://github.com/poohsae/robosys2023.git>
@@ -14,6 +19,10 @@ $chmod +x plus
 $seq 5 | ./plus
 
 15
+
+$seq 5 | ./multiplication
+
+120
 
 ## 必要なソフトウェア
 * python
