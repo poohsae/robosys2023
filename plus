@@ -12,6 +12,6 @@ for line in sys.stdin:
             ans += float(line)
         except:
             print("is not number")
-            return
+            exit()
 print(ans)
 
