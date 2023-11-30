@@ -12,8 +12,7 @@
 
 ## ダウンロード
 ~~~bash
-$ git clone
-git@github.com:poohsae/robosys2023.git
+$ git clonegit@github.com:poohsae/robosys2023.git
 $ cd robosys2023
 ~~~
 
