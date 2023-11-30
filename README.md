@@ -25,6 +25,8 @@ $ seq 5 | ./plus
 
 15
 
+$ chmod +x multiplication
+
 $ seq 5 | ./multiplication
 
 120
