@@ -11,18 +11,22 @@
 * 標準入力から読み込んだ数字を掛ける。
 
 ## ダウンロード
-`$ git clone https://github.com/poohsae/robosys2023.git`
+~~~bash
+$ git clone
+git@github.com:poohsae/robosys2023.git
+$ cd robosys2023
+~~~
 
 ## 使用例
 
 ```
-$chmod +x plus
+$ chmod +x plus
 
-$seq 5 | ./plus
+$ seq 5 | ./plus
 
 15
 
-$seq 5 | ./multiplication
+$ seq 5 | ./multiplication
 
 120
 ```
